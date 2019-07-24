@@ -1,12 +1,10 @@
 ###########################################################################
 
-#                   DEMZ ANALYTICS...
+#                  
 
 # This code uses the Y cordinates of the page to extract each row in a table and append them to a list
 
 # The Y cordinate is the bbox[1]
-# This code has been tested and proven to work on both the EVCA and the Bridgepoint Document 
-
 
 # Created on 27th June, 2019. 
 # @author: Bruno
