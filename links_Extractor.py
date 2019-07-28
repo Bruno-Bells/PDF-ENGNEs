@@ -9,7 +9,7 @@ Created on Sun Jul 28 09:06:53 2019
 import fitz
 
 
-doc = fitz.open('Extra/1-ProVen-VCT-Annual-Report_Accounts.pdf') # open document
+doc = fitz.open('Extra/Accounts.pdf') # open document
 pages = len(doc) 
 page = doc.loadPage(13)
 links = page.getLinks()
