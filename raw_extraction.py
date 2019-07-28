@@ -16,14 +16,13 @@ img_block = [block for block in text_dict['blocks'] if block['type'] == 1] # Ima
 
 
 Raw_Extraction = []
-for typ in text_blocks:
-    for line in text_blocks:
-        lines = line['lines']
-        for chunk in lines:
-            bbox = chunk['bbox']
-            span = chunk['spans']
-            for text in span:
-                text = text['text']
-                Raw_Extraction.append(text)
+  for line in text_blocks:
+      lines = line['lines']
+      for chunk in lines:
+          bbox = chunk['bbox']
+          span = chunk['spans']
+          for text in span:
+              text = text['text']
+              Raw_Extraction.append(text)
 
 print(Raw_Extraction)
