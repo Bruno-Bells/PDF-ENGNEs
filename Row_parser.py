@@ -24,7 +24,7 @@ from statistics import mode
 from collections import Counter
 
 
-doc = fitz.open('elysian.pdf') # open document
+doc = fitz.open('myfile.pdf') # open document
 pages = len(doc) 
 page = doc.loadPage(8)
 text_dict = page.getText('dict')
