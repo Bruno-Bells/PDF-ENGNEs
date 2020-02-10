@@ -7,7 +7,7 @@ Created on Thu Jul 25 11:43:10 2019
 import fitz
 
 
-doc = fitz.open('elysian.pdf') # open document
+doc = fitz.open('files.pdf') # open document
 pages = len(doc) 
 page = doc.loadPage(8)
 text_dict = page.getText('dict')
