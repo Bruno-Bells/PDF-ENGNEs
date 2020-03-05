@@ -2,6 +2,8 @@
 import fitz
 import random, string
 
+# Extract images from a pdf file
+
 doc = "Bruno.pdf" # path to pdf file
 doc = fitz.open(doc)
 pno = doc.loadPage(6)
